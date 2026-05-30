@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "已关闭网页查看器",
+  "version": "1.0",
+  "description": "查看被关闭的网页，按时间倒序排列",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.svg",
+    "default_title": "已关闭网页查看器"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
